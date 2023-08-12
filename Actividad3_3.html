@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Cv</title>
+    <link rel="stylesheet" href="estilosde3.css">
+</head>
+
+<body>
+    <h1>Nahuel Alonso</h1>
+    <ul class="back">
+        <li>Soy estudiante de Ingeniería en Sistemas de comunicaciones de la Facultad de Ingeniería Udelar. </li>
+        <li>Estoy realizando cursos de desarrollo web.</li>
+        <li>Y me encanta aprender y adquirir nuevas habilidades.</li>
+    </ul>
+    <hr>
+
+    <h1 id="habilidades">Habilidades y conocimientos</h1>
+    <ul class="back">
+        <li><strong>Programación:</strong> Python basico, JavaScript basico</li>
+        <li><strong>Desarrollo web:</strong>HTML y CSS basico</li>
+        <li><strong>Extra:</strong>Fabricacion de antena y conexion coaxial. Conocimiento de comunicaciones ADBS-B</li>
+
+    </ul>
+    <hr>
+    <h1 id="academico">Academico</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estudios</th>
+                <th>Entidad</th>
+                <th>Epoca</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Desarrollo Web</td>
+                <td>Plan Ceibal (Jovenes a Programar)</td>
+                <td>01/03/2023 - En curso</td>
+            </tr>
+            <tr>
+                <td>Ingeniería en Sistemas de Comunciaciones</td>
+                <td>Facultad de Ingenieria Udelar</td>
+                <td>26/02/2023 - En curso</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h1 id="perfiles">Redes Sociales</h1>
+    <p>También puedes encontrarme en:</p>
+    <ul class="perfiles">
+        <li> <a href="https://github.com/Nahuellalonso"> Github </a></li>
+        <li> <a href="https://www.linkedin.com/in/nahuel-alonso-684bb9279/"> LinkedIn </a></li>
+    </ul>
+    <hr>
+    <h1 id="contactar">Contactar</h1>
+    <form action="" method="post">
+        <label for="email">Correo</label>
+        <input type="email" id="email" name="Correo">
+        <br>
+        <label for="tematica">Temática</label>
+        <select name="tematica" id="tematica">
+            <option value="1">Consulta</option>
+            <option value="2">Propuesta</option>
+            <option value="3">Otro</option>
+        </select>
+        <br>
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" name="asunto">
+        <br>
+        <label for="textarea" id="Cuerpo" class="cuerpo">Cuerpo</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="8"></textarea>
+        <br>
+        <input id="enviar" type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
